@@ -1,0 +1,49 @@
+body {
+  font-family: sans-serif;
+  background: #f0f0f0;
+  padding: 20px;
+}
+.semestre {
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  vertical-align: top;
+  width: 250px;
+  background: #fff;
+}
+.semestre h3 {
+  text-align: center;
+}
+.ramo {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  background-color: pink;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-size: 0.85em;
+}
+.aprobado {
+  background-color: purple !important;
+  color: white;
+  text-decoration: line-through;
+}
+.bloqueado {
+  background-color: #ccc !important;
+  cursor: not-allowed;
+}
+#resetBtn {
+  margin: 20px;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 8px;
+  border: none;
+  background: #ff4d4d;
+  color: white;
+  cursor: pointer;
+}
